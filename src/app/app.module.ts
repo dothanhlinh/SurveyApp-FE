@@ -30,7 +30,7 @@ import { HttpClientModule } from '@angular/common/http';
     ClientComponent,
     AdminComponent,
     AdminObjectSurveyComponent,
-    AdminUnitTypeComponent
+    AdminUnitTypeComponent,
   ],
   imports: [
     BrowserModule,
