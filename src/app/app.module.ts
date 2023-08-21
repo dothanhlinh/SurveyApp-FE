@@ -12,6 +12,15 @@ import { ClientRoutingModule } from './components/client/client-routing.module';
 import { ButtonModule } from 'primeng/button';
 import { DropdownModule } from 'primeng/dropdown'; 
 import { FormsModule } from '@angular/forms';
+import { AdminObjectSurveyComponent } from './components/admin/admin-object-survey/admin-object-survey.component';
+import { AdminUnitTypeComponent } from './components/admin/admin-unit-type/admin-unit-type.component';
+import { InputTextModule } from 'primeng/inputtext';
+import { TableModule } from 'primeng/table';
+import { MultiSelectModule } from 'primeng/multiselect';
+import { TagModule } from 'primeng/tag';
+import { SliderModule } from 'primeng/slider';
+import { ProgressBarModule } from 'primeng/progressbar';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -19,7 +28,9 @@ import { FormsModule } from '@angular/forms';
     AdminHomeComponent,
     ClientHomeComponent,
     ClientComponent,
-    AdminComponent
+    AdminComponent,
+    AdminObjectSurveyComponent,
+    AdminUnitTypeComponent
   ],
   imports: [
     BrowserModule,
@@ -29,7 +40,14 @@ import { FormsModule } from '@angular/forms';
     ButtonModule,
     DropdownModule,
     FormsModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    InputTextModule,
+    TableModule,
+    MultiSelectModule,
+    TagModule,
+    SliderModule,
+    ProgressBarModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
